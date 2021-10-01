@@ -23,7 +23,7 @@ public:
     void printCharacter() const;
     /*!
      * @brief Вывод названия фигуры
-     * @param[i] название фигуры
+     * @param[in] название фигуры
      */
     void printName(std::string name) const;
 protected:
