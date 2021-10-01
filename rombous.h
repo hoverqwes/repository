@@ -19,17 +19,17 @@ public:
     virtual void draw() const;
     /*!
      * @brief Заполнение вектора
-     * @param[i] Вектор
+     * @param[in] Вектор
      * @note Заполнение вектора значениями false для дальнейшего использования ячеек
      */
     void clearVector(std::vector<bool> &array) const;
     /*!
      * @brief Заполнение вектора
-     * @param[i] Вектор
-     * @param[i] Строка отрисовки
-     * @param[i] Середина фигуры
-     * @param[i] Увеличение горизонтальной отрисовки (до середины)
-     * @param[i] Уменьшение горизонтальной отрисовки (после середины)
+     * @param[in] Вектор
+     * @param[in] Строка отрисовки
+     * @param[in] Середина фигуры
+     * @param[in] Увеличение горизонтальной отрисовки (до середины)
+     * @param[in] Уменьшение горизонтальной отрисовки (после середины)
      * @note Заполнение вектора значениями false для дальнейшего использования ячеек
      */
     void calcRomb(std::vector<bool> &array, int i, int medium, int &increase, int &decrease) const;
